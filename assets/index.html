@@ -1,45 +1,109 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPWIP Monitoring</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPWIP Monitoring</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Sidebar -->
     <div class="sidebar">
-        <h2>PPWIP</h2>
+        <div class="logo">
+            <h2>PPWIP</h2>
+            <small>Monitoring</small>
+        </div>
 
-        <ul>
-            <li>🏠 Dashboard</li>
+        <ul class="menu">
+            <li class="active">🏠 Dashboard</li>
             <li>📋 Pekerjaan</li>
             <li>📈 Monitoring</li>
             <li>📄 Laporan</li>
             <li>👥 Pengguna</li>
+            <li>⚙ Pengaturan</li>
         </ul>
     </div>
 
+    <!-- Main -->
     <div class="main">
-        <h1>Dashboard PPWIP Monitoring</h1>
 
-        <div class="card">
-            <h3>Total Pekerjaan</h3>
-            <p>156</p>
+        <div class="header">
+            <h1>Dashboard PPWIP Monitoring</h1>
+            <p>Selamat datang Administrator</p>
         </div>
 
-        <div class="card">
-            <h3>Sedang Berjalan</h3>
-            <p>54</p>
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Pekerjaan</h3>
+                <h1>156</h1>
+            </div>
+
+            <div class="card">
+                <h3>Sedang Berjalan</h3>
+                <h1>54</h1>
+            </div>
+
+            <div class="card">
+                <h3>Selesai</h3>
+                <h1>89</h1>
+            </div>
+
+            <div class="card">
+                <h3>Terlambat</h3>
+                <h1>13</h1>
+            </div>
+
         </div>
 
-        <div class="card">
-            <h3>Selesai</h3>
-            <p>89</p>
+        <div class="table-card">
+            <h2>Pekerjaan Terbaru</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Pekerjaan</th>
+                        <th>Petugas</th>
+                        <th>Progress</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pembangunan Jalan</td>
+                        <td>Andi</td>
+                        <td>75%</td>
+                        <td>Sedang Berjalan</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Survey Lapangan</td>
+                        <td>Budi</td>
+                        <td>100%</td>
+                        <td>Selesai</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Administrasi</td>
+                        <td>Siti</td>
+                        <td>40%</td>
+                        <td>Proses</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </div>
+
     </div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>

@@ -1,3 +1,1 @@
-console.log("PPWIP Monitoring aktif");
-
-alert("Selamat datang di PPWIP Monitoring");
+console.log("PPWIP Monitoring berhasil dijalankan");
